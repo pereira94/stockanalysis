@@ -1,7 +1,7 @@
 Package: stockanalysis
 Type: Package
 Title: Yahoo Finanace Stock Analysis
-Version: 0.1.0
+Version: 0.1.1
 Author: Pedro Pereira
 Maintainer: Pedro Perira <pedropereira0426@gmail.com>
 Description: Retrieve stocks data and analyze it.
@@ -14,3 +14,4 @@ Depends:
     lubridate,
     stringr
 RoxygenNote: 7.1.1
+
