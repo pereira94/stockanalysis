@@ -8,3 +8,4 @@ s3_client <- function(boto3=NULL) {
                     aws_secret_access_key=Sys.getenv("AWS_SECRET"))
   s3
 }
+
