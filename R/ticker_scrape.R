@@ -9,3 +9,8 @@ names(sp_500) <- sp_500 %>%
   names() %>%
   str_to_lower() %>%
   make.names()
+
+sp_500$symbol <- gsub("\\.", "-", sp_500$symbol)
+
+write.csv(sp_500, '/Users/pedropereira/Documents/stockanalysis/tickers.csv')
+
