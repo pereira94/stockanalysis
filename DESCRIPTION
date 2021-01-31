@@ -16,6 +16,7 @@ Depends:
     quantmod,
     rvest,
     xts,
-    forcats
+    forcats,
+    plotly
 RoxygenNote: 7.1.1
 
