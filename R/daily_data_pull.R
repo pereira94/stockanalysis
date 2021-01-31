@@ -1,6 +1,8 @@
 today = as.character(Sys.Date())
 start = ymd(today) - 1827
 
+sp_500 <- read_csv('/Users/pedropereira/Documents/stockanalysis/tickers.csv')
+
 data <- sp_500 %>%
   mutate(
     stock.prices = map(symbol,

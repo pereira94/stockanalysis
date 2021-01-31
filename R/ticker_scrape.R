@@ -12,5 +12,5 @@ names(sp_500) <- sp_500 %>%
 
 sp_500$symbol <- gsub("\\.", "-", sp_500$symbol)
 
-write.csv(sp_500, '/Users/pedropereira/Documents/stockanalysis/tickers.csv')
+write.csv(sp_500, "/Users/pedropereira/Documents/stockanalysis/tickers.csv")
 
