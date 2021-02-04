@@ -1,10 +1,10 @@
 Package: stockanalysis
 Type: Package
-Title: Yahoo Finanace Stock Analysis
+Title: Stock Analysis
 Version: 0.2.1
 Author: Pedro Pereira
 Maintainer: Pedro Perira <pedropereira0426@gmail.com>
-Description: Retrieve stocks data and analyze it.
+Description: Retrieves stocks data from the Yahoo Finance API.
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
