@@ -1,3 +1,5 @@
+#' get_log_returns
+#' @export get_log_returns
 get_log_returns <- function(x, return_format = "tibble", period = 'daily', ...) {
   # Convert tibble to xts
   if (!is.xts(x)) {

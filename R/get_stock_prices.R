@@ -1,3 +1,5 @@
+#' get_stock_prices
+#' @export get_stock_prices
 get_stock_prices <- function(ticker, return_format = "tibble", ...) {
   # Get stock prices
   stock_prices_xts <- getSymbols(Symbols = ticker, auto.assign = FALSE, ...)
